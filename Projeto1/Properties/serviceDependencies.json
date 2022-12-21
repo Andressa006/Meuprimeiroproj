@@ -3,6 +3,9 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:Projeto1Context"
+    },
+    "appInsights1": {
+      "type": "appInsights"
     }
   }
 }
