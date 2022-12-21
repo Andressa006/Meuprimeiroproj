@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Projeto1.Models;
+using Projeto1.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Projeto1.Controllers
+namespace Projeto1.Controllers 
 {
     public class HomeController : Controller
     {
