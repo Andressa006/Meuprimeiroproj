@@ -9,6 +9,8 @@ namespace Projeto1.Data
 {
     public class Projeto1Context : DbContext
     {
+        internal object SalesRecord;
+
         public Projeto1Context (DbContextOptions<Projeto1Context> options)
             : base(options)
         {
